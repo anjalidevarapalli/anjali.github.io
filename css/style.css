@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background-color:rgb(236, 202, 255);  
+    border-style: solid;
+    border-color: pink;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Trirong", serif;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(236, 202, 255); 
+    border-style: solid;
+    border-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.anjali {
+    background-image: url(https://t3.ftcdn.net/jpg/02/76/44/92/360_F_276449235_z71XmvtwDHfqxNt6UCK5yl4mAplD3cds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 500px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.about_me {
+    background-color: white;
+    padding-top: 4px;
+    text-align: center;
+    background-color: lightpink;
+}
+.anjalid {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: purple;
+    padding-top: 150px;
+}
+
+.computer_science {
+    font-family: "Trirong", serif;
+    font-size: 25px;
+    color: purple;
+}
+.hello {
+    font-family: "Trirong", serif;
+    color: purple;
+    font-size: 40px;
+}
+.about {
+    font-family: "Trirong", serif;
+    color: purple;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.languages {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.leadership {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.skills {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+hr {
+   border-top: dotted 3px; 
+   color: purple;
+   width: 10%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 35px;
+}
+
+#lotus {
+    object-fit: cover;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    border: purple;
+    border-radius: 20px;
+}
+
+#butterfly {
+    object-fit: cover;
+    position: absolute;
+    bottom: 18rem;
+    right: 2rem;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.container {
+    display: grid; 
+    justify-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 black;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    width: 300px;
+    height: 425px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 black;
+}
+
+.address {
+    text-align: center;
+}
+.phone {
+    text-align: center;
+}
+
+.one-col {
+    padding-bottom: 475px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_anjali {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: purple;
+    padding-top: 40px;
+}
+
+.address {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.phone {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+.contact_body {
+    background-color: lightpink;
+}
+
+.contact_card {
+    box-shadow: 0 4px 8px 0 black;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgb(236, 202, 255); 
+    height: 200px;
+}
+
+.name {
+    font-family: "Trirong", serif;
+}
+
+.email {
+    font-family: "Trirong", serif;
+}
+
+.message {
+    font-family: "Trirong", serif;
+}
+
+.submit {
+    margin-top: 50px;
+    font-family: "Trirong", serif;
+    background-color: lightpink;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.form {
+    text-align: center;
+}
+
+.footer_index {
+    font-family: "Trirong", serif;
+}
+
+.footer_contact {
+    font-family: "Trirong", serif;
+}
+
+.name_label {
+   display: block; 
+}
